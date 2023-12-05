@@ -1,0 +1,236 @@
+*{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header{
+background-color:#231f20;
+}
+
+body{
+    background-color: #e64d32dc;
+ margin: 0;
+ background-image: url(/asador.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ 
+}
+
+footer{
+    background-color: #231f20;
+    width: 95rem;
+    height: 10rem;
+}
+
+html{
+    height: 100%;
+}
+
+.div{
+    margin-bottom:10rem ;
+    margin-left: 25rem;
+}
+
+
+.body{
+    position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-size: cover;
+	
+	z-index: 0;
+}
+
+.grad{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.header{
+	position: absolute;
+	top: calc(50% - 35px);
+	left: calc(50% - 255px);
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+.header div span{
+	color: #5379fa !important;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+    left: 38rem;
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=button]{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+p{
+
+    margin-bottom: 15rem;
+
+}
+
+.bg-aa{
+    background-color: aqua;
+}
+
+.h-1{
+    height: 10rem;
+}
+
+.w-1{
+    width: 100rem;
+}
+
+.h-2{
+    height: 10rem;
+}
+
+.h-3{
+height: 21px;
+}
+
+.w-2{
+    width: 257px;
+}
+
+.textarea{
+display:flex;
+justify-content: center;
+margin-right: 25rem;
+}
+
+
+.bg-txt{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    
+}
+
+.mt-1{
+padding-top: 1rem;
+
+}
+
+.txtd{
+text-decoration: none;
+color: black;
+}
+
+button{
+    margin-right:50rem;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    height: 2.5em;
+    width: 7em;
+background-color: #ffc627;
+border-color: #ffc627;
+border-radius: 4px;
+vertical-align: top;
+padding-left: 3rem;
+padding-right: 3rem;
+right: -400px;
+}
+
+
